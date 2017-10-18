@@ -10,11 +10,21 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <link rel="stylesheet" href="assets/style.css"/>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     </head>
-    <body>
-        <h1>${msg}</h1>
-        <h2>${msg1}</h2>
-        <h3>${msg2}</h3>
+    <body class="wall">
+        <div class="container">
+            <h1 style="text-align: center">${msg}</h1>
+        <table style="width: 1000px">
+            <tr>
+                <td>
+            <marquee scrollamount="10"> <h2 style="color: blue">${msg1}</h2></marquee>
+                </td>
+            </tr>
+        </table>
+        
+        
         <p>
           
         <ul>
@@ -45,6 +55,6 @@
             </c:forEach>
         </ul>
        </p>
-       
+       </div>
     </body>
 </html>
