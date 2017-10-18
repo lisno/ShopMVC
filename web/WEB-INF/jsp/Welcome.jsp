@@ -13,13 +13,15 @@
         <link rel="stylesheet" href="assets/style.css"/>
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     </head>
-    <body class="wall">
+    <body  style="background: url('assets/bb3.jpg'); background-size: contain; background-repeat:repeat ">
         <div class="container">
-            <h1 style="text-align: center">${msg}</h1>
+            <h1 style="text-align: center"><img src="assets/logo1.png" height="100" width="363"/></h1>
+            
         <table style="width: 1000px">
+            
             <tr>
                 <td>
-            <marquee scrollamount="10"> <h2 style="color: blue">${msg1}</h2></marquee>
+            <marquee scrollamount="10"> <h2 style="color: red">${msg1}</h2></marquee>
                 </td>
             </tr>
         </table>

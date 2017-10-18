@@ -37,7 +37,7 @@ public class WelcomeController {
         
         
     model.addAttribute("msg", "Selamat Datang Di Website ini");
-    model.addAttribute("msg1", "---Shopping day---Harga Termurah SeAsia");
+    model.addAttribute("msg1", "---Shopping day Harga Termurah SeAsia---");
     model.addAttribute("tes", cart);
     
     return "Welcome";
